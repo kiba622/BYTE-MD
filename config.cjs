@@ -2,13 +2,13 @@ const fs = require('fs');
 if (fs.existsSync('config.env')) require('dotenv').config({ path: './config.env' });
 
 module.exports = {
-  "SESSION_ID": process.env.SESSION_ID || "",
+  "SESSION_ID": process.env.SESSION_ID || "levanter_98e5b2991ef094db6a47c5461f6e37163",
   "ALIVE_IMG": process.env.ALIVE_IMG || "https://raw.githubusercontent.com/HyHamza/HyHamza/refs/heads/main/Images/logo.jpg",
-  "PREFIX": process.env.PREFIX || ".",
+  "PREFIX": process.env.PREFIX || "✓",
   "AUTO_READ_STATUS": process.env.AUTO_READ_STATUS === 'true',
   "MODE": process.env.MODE || "public",
-  "OWNER_NUMBER": process.env.OWNER_NUMBER || "923072380380",
-  "OWNER_NAME": process.env.OWNER_NAME || "Hamza",
+  "OWNER_NUMBER": process.env.OWNER_NUMBER || "24106438078",
+  "OWNER_NAME": process.env.OWNER_NAME || "shadow",
   "ALWAYS_ONLINE": process.env.ALWAYS_ONLINE === 'true',
   "PRESENCE": process.env.PRESENCE || "online",
   "OMDB_API_KEY": process.env.OMDB_API_KEY || "76cb7f39",
