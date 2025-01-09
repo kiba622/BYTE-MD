@@ -2,13 +2,13 @@ const fs = require('fs');
 if (fs.existsSync('config.env')) require('dotenv').config({ path: './config.env' });
 
 module.exports = {
-  "SESSION_ID": process.env.SESSION_ID || "",
+  "SESSION_ID": process.env.SESSION_ID || "levanter_98e5b2991ef094db6a47c5461f6e37163",
   "ALIVE_IMG": process.env.ALIVE_IMG || "https://raw.githubusercontent.com/HyHamza/HyHamza/refs/heads/main/Images/logo.jpg",
-  "PREFIX": process.env.PREFIX || ".",
+  "PREFIX": process.env.PREFIX || "✓",
   "AUTO_READ_STATUS": process.env.AUTO_READ_STATUS === 'true',
-  "MODE": process.env.MODE || "public",
-  "OWNER_NUMBER": process.env.OWNER_NUMBER || "923072380380",
-  "OWNER_NAME": process.env.OWNER_NAME || "Hamza",
+  "MODE": process.env.MODE || "privé",
+  "OWNER_NUMBER": process.env.OWNER_NUMBER || "24106438078",
+  "OWNER_NAME": process.env.OWNER_NAME || "shadow",
   "ALWAYS_ONLINE": process.env.ALWAYS_ONLINE === 'true',
   "PRESENCE": process.env.PRESENCE || "online",
   "OMDB_API_KEY": process.env.OMDB_API_KEY || "76cb7f39",
@@ -24,7 +24,7 @@ module.exports = {
   "ANTI_DELETE": process.env.ANTI_DELETE === 'true',
   "ANTI_VIEW_ONCE": process.env.ANTI_VIEW_ONCE === 'true',
   "ANTI_BOT": process.env.ANTI_BOT === 'true',
-  "PREMIUM_USERS": process.env.PREMIUM_USERS || "",
+  "PREMIUM_USERS": process.env.PREMIUM_USERS || "shadow",
   "COUNTRY_BLOCK": process.env.COUNTRY_BLOCK === 'true',
   "COUNTRY_BLOCK_CODE": process.env.COUNTRY_BLOCK_CODE || "972",
   "EMOJI": process.env.EMOJI || "🙄",
